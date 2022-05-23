@@ -133,6 +133,10 @@
 	transition: .2s ease-in-out;
 }
 
+.product-item:hover .product-content img {
+	filter: invert(18%) sepia(96%) saturate(3198%) hue-rotate(334deg) brightness(77%) contrast(123%);
+}
+
 .discount-event-con {
 	height: 21em;
 	color: var(--Light_text);
