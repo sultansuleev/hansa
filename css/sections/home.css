@@ -85,7 +85,7 @@
 	background-color: var(--Grid_BG);
 	border-radius: 20px;
 	position: relative;
-
+	min-height: 235.594px;
 }
 
 .product-content .event-status {
