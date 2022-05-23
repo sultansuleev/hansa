@@ -1,0 +1,45 @@
+header {
+	background-color: #222222;
+}
+
+.portfolio h3 {
+	text-transform: uppercase;
+}
+
+.portfolio-text p {
+	font-size: var(--font-size-18);
+	line-height: var(--line-height-21);
+	color: var(--black);
+}
+
+.portfolio-text {
+	border-bottom: 1px solid var(--deep-black);
+}
+
+@media (min-width: 992px) {
+	.portfolio h3 {
+		font-size: var(--font-size-36);
+		line-height: var(--line-height-42);
+	}
+}
+
+.wi {
+	color: var(--white);
+	position: relative;
+}
+
+@media (min-width: 992px) {
+	/* .wi-under {
+		height: 756px;
+	} */
+}
+
+.wi-under-img {
+	position: relative;
+	width: 100%;
+}
+
+.wi-under-img img {
+	min-height: 297px;
+	object-fit: cover;
+}
